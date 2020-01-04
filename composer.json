@@ -1,0 +1,33 @@
+{
+    "name": "jycamier/alice-process-bundle",
+    "description": "Simple Task fileloader of nelmio/alice-bundle for the Process Bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "keywords": [
+        "process",
+        "task",
+        "etl",
+        "transformation",
+        "import",
+        "export",
+        "fixtures",
+        "alice",
+        "faker"
+    ],
+    "homepage": "https://github.com/jycamier/alice-process-bundle",
+    "authors": [
+        {
+            "name": "Jean-Yves CAMIER",
+            "email": "jycamier@clever-age.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jycamier\\AliceProcessBundle\\": ""
+        }
+    },
+    "require": {
+        "cleverage/process-bundle": "3.*|dev-v3.0-dev",
+        "nelmio/alice": "^3.5"
+    }
+}
